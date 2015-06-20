@@ -36,13 +36,10 @@ var init = function() {
 };
 
 //LISTENER
-function f_contact() {
-	APP.addChild("contact", {
-		isChild: true,
-		heading: "Working...",
-		text: "More info here",
-	});
+function f_send() {
+	alert("Email sent successfully!");
 }
 
 //BOOTSRAP
 init();
+

@@ -6,10 +6,9 @@
 			<Label id="heading" />
 			
 			<Label id="text" />
-			
-			<Button id="b_contact" title="Contact Owner" onClick="f_contact"/>
+			<Button id="b_send" title="Send Email" onClick="f_send"/>
 		</ScrollView>
 		
-
+		
 	</View>
 </Alloy>

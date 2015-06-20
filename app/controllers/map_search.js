@@ -45,7 +45,7 @@ var init = function() {
 		var location = Alloy.Globals.Map.createAnnotation({
 			title: "Your Location",
 			latitude: 41.8906600,
-			longitude: 41.8906600
+			longitude: -87.632061
 			//latitude: e.coords.latitude,
 			//longitude: e.coords.longitude
 		});
@@ -54,7 +54,7 @@ var init = function() {
 
 		$.map.region = {
 			latitude: 41.8906600,
-			longitude: 41.8906600,
+			longitude: -87.632061,
 			// latitude: e.coords.latitude,
 			// longitude: e.coords.longitude,
 			latitudeDelta: 0.05,
@@ -87,8 +87,8 @@ var init = function() {
 
 //LISTENERS
 $.map.addEventListener('click', function(e) {
-	Ti.API.info(e.annotation);
-	alert(e.title);
+	//Ti.API.info(e.annotation);
+	//alert(e.title);
 	APP.addChild("place_detail", {
 		isChild: true,
 		heading: e.title,

@@ -7,4 +7,5 @@
 	layout: "vertical",
 	showVerticalScrollIndicator: true,
 	height: "90%"
-},
+}
+
