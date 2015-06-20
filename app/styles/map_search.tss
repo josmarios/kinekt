@@ -1,4 +1,9 @@
-
-".container" : {
-  
-}
+"#Wrapper": {
+	layout: "vertical"
+},
+"#container": {
+	top: "0dp",
+	backgroundColor: "#FFF",
+	layout: "vertical",
+	showVerticalScrollIndicator: true
+},

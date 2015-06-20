@@ -420,12 +420,13 @@ var APP = {
 
 		if(APP.Settings.useSlideMenu) {
 			// Add the Settings tab
+			/*
 			nodes.push({
 				id: "settings",
 				title: "Settings",
 				image: "/icons/white/settings.png",
 				menuHeader: hasMenuHeaders ? "Application" : null
-			});
+			});*/
 
 			APP.buildMenu(nodes);
 		} else {
