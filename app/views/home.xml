@@ -1,15 +1,11 @@
 <Alloy>
-	<View id="Wrapper" name="Donate">
+	<View id="Wrapper" name="home">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
 		
 		<ScrollView id="container">
 			<Label id="heading" />
 			
-			<Label id="text" />
-			
-			<View id="button">
-				<Label id="buttonText" text="Donate Now" />
-			</View>
+			<Label id="home" />
 		</ScrollView>
 	</View>
 </Alloy>
