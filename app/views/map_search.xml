@@ -2,11 +2,8 @@
 	<View id="Wrapper" name="map_search">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
 		
-		<ScrollView id="container">
-			<View id="map" ns="Alloy.Globals.Map">
+		<View id="map" ns="Alloy.Globals.Map">
 			
-			</View>
-
-		</ScrollView>
+		</View>
 	</View>
 </Alloy>

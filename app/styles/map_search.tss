@@ -5,5 +5,6 @@
 	top: "0dp",
 	backgroundColor: "#FFF",
 	layout: "vertical",
-	showVerticalScrollIndicator: true
+	showVerticalScrollIndicator: true,
+	height: "90%"
 },

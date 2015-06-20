@@ -1,0 +1,13 @@
+<Alloy>
+	<View id="Wrapper" name="Text">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
+		
+		<ScrollView id="container">
+			<Label id="heading" />
+			
+			<Label id="text" />
+		</ScrollView>
+		
+		<Button id="b_contact" title="Contact Owner" onClick="f_contact"/>
+	</View>
+</Alloy>
