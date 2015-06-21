@@ -25,34 +25,32 @@
 	"manifest": ["http://chariti.mobi/app/logo.png", "http://chariti.mobi/app/logo@2x.png"],
 	"tabs": [
 		{
+			"menuHeader": "",
 			"title": "Home",
-			"heading": "Open Source Mobile Framework for Charities",
-			"text": "The ChariTi framework is built to allow the often-times small team of staffers at charities around the world to build a mobile application. This is achieved by removing the requirement for a highly-knowledgeable technical staff or costly app development firm and instead allowing app creation and management by anyone from a marketing director to an intern.",
+			"heading": "",
+			"text": "",
 			"type": "home",
 			"image": "home",
 			"tabletSupport": false
-		},
-		{
+		}, {
+			"menuHeader": "",
 			"title": "My Properties",
-			"heading": "Open Source Mobile Framework for Charities",
-			"text": "The ChariTi framework is built to allow the often-times small team of staffers at charities around the world to build a mobile application. This is achieved by removing the requirement for a highly-knowledgeable technical staff or costly app development firm and instead allowing app creation and management by anyone from a marketing director to an intern.",
-			"type": "home",
-			"image": "book",
+			"heading": "",
+			"text": "",
+			"type": "login",
+			"image": "property",
 			"tabletSupport": false
-		},
-		{
+		}, {
 			"title": "Map Search",
 			"type": "map_search",
 			"image": "map",
 			"tabletSupport": false
-		},
-		{
+		}, {
 			"title": "Address Search",
 			"type": "map_search",
 			"image": "contact",
 			"tabletSupport": false
-		},
-		{
+		}, {
 			"title": "Facebook",
 			"type": "web",
 			"image": "social",

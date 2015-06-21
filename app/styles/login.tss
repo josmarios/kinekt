@@ -1,0 +1,49 @@
+"#Wrapper": {
+	layout: "vertical"
+},
+"#container": {
+	top: "0dp",
+	layout: "vertical",
+	showVerticalScrollIndicator: true,
+	backgroundColor: "#555555"
+},
+
+"#ad": {
+	top: "20%",
+	height: "15%",
+	width: Titanium.UI.FILL,
+	image: "/images/ad.png"
+},
+
+"#buttons": {
+	height: "20%",
+	layout: "horizontal",
+	width: "80%"
+},
+
+"TextField": {
+	width: "80%",
+	height: "15%",
+	color: "#7f7f7f",
+	clearOnEdit: true
+},
+
+"Label": {
+	height: "15%",
+	font: {
+		fontSize: "30"
+	}
+},
+
+"Button": {
+	backgroundColor: "transparent",
+	borderColor: "#fff",
+	width: "45%",
+	top: "5%",
+	height: "80%",
+	borderRadius: "5",
+	font: {
+		fontSize: "15"
+	},
+	left: "3%"
+}
