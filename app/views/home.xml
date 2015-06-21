@@ -1,11 +1,8 @@
 <Alloy>
 	<View id="Wrapper" name="home">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
-		
 		<ScrollView id="container">
-			<Label id="heading" />
-			
-			<Label id="home" />
+			<ImageView id="bg"/>
 		</ScrollView>
 	</View>
 </Alloy>

@@ -1,0 +1,15 @@
+<Alloy>
+	<View id="Wrapper" name="signup">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
+		<ScrollView id="container">
+			<Label id="title">Signup</Label>
+			<TextField id="username" hintText="Username"/>
+			<TextField id="password" hintText="Password"/>
+			<TextField id="email" hintText="Email"/>
+			<TextField id="phone" hintText="Phone"/>
+			<Button id="signup_btn">Signup</Button>
+			<ImageView id="ad"/>
+		</ScrollView>
+
+	</View>
+</Alloy>
