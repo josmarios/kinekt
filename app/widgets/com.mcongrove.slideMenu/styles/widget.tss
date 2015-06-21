@@ -2,11 +2,14 @@
 	width: "200dp",
 	top: "0dp",
 	left: "-200dp",
-	backgroundColor: "#000"
+	backgroundColor: "#000",
+	backgroundImage: "/images/skyscrap.jpg",
+	opacity: "0.88"
 },
 "#Nodes": {
 	top: "0dp",
 	backgroundColor: "#111",
 	separatorColor: "#222",
+	opacity: "0.9",
 	separatorStyle: Ti.UI.iPhone.TableViewSeparatorStyle.SINGLE_LINE
 }

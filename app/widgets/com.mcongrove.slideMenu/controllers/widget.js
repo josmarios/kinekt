@@ -35,7 +35,7 @@ $.init = function(_params) {
 
 		var tab = Ti.UI.createTableViewRow({
 			id: _params.nodes[i].id,
-			height: "47dp",
+			height: "65dp",
 			backgroundcolor: "#111",
 			backgroundSelectedColor: "#222",
 			selectedBackgroundColor: "#222"
